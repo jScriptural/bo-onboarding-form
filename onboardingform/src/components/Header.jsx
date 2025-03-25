@@ -1,4 +1,3 @@
-import myLogo from '/mylogo.svg';
 import johnLogo from '/johnlogo.svg';
 
 

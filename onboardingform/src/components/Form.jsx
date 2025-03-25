@@ -1,4 +1,4 @@
-import {useState,useEffect, useRef} from 'react';
+import {useState, useRef} from 'react';
 import emailjs from '@emailjs/browser';
 
 const SERVICE_ID = "service_zltj0mb";
@@ -11,8 +11,10 @@ export default function Form(){
   const [page, setPage] = useState(1);
   const form = useRef(null);
 
-  const nextHandler = (evt)=> setPage((p)=>p+1);
+  const nextHandler = ()=> setPage((p)=>p+1);
   const submitHandler = (evt)=>{
+    console.log(evt);
+    evt.preventDefault();
     let textStr ='';
     const textarea = form.current.message;
     form.current.time.value = new Date().toLocaleTimeString();

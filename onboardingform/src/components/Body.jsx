@@ -1,6 +1,6 @@
 
 
-export default function Body({props}){
+export default function Body(){
 
   return (<>
     <header id="menu">
@@ -8,7 +8,7 @@ export default function Body({props}){
     <ul>
       <li><a href="#orientation">Orientation</a></li>
       <li><a href="#form">Onboarding form</a></li>
-      <li><a href="#footer">Footer</a></li>
+      <li><a href="#footer">Quick links</a></li>
     </ul>
     </header>
     <section id="body">
