@@ -1,0 +1,6 @@
+<svg width="450" height="170" xmlns="http://www.w3.org/2000/svg" >
+    <rect x="35" y="35" width="45" height="45" fill="#0357ef"/>
+    <line x1="40" y1="70" x2="50" y2="70" stroke="#ffffff" stroke-width="10"/>
+    <text x="60" y="60" text-anchor="start" dominant-baseline="middle" fill="#ffffff" font-size="25" font-family="san-serif">J</text>
+    <text x="80" y="60" text-anchor="start" dominant-baseline="middle" fill="#ffffff" font-size="25" font-family="sans-serif">ohn.isonguyo@moniepoint.com</text>
+</svg>

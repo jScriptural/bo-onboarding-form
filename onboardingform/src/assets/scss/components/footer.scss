@@ -1,0 +1,23 @@
+#footer {
+  border: 1px solid #000;
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+  section {
+    margin-bottom: 1rem;
+    h1 {
+      font-family: "poppins", sans-serif;
+      color: rgba(34,205,41);
+    }
+    main {
+      ul {
+        padding: 0 1rem 0;
+        list-style: none;
+        a {
+          text-decoration: none;
+          color: #0357ef;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+#menu {
+   position: sticky;
+   top: 20vh; 
+   bottom: 80vh;
+   padding: 1rem;
+   color: #fff;
+   background-color: #0357ef;
+   h1 {
+     font-family: "poppins",sans-serif;
+     font-weight: 800;
+     font-size: 1rem;
+     margin-bottom: 2px;
+     border-bottom: 1px solid #fff;
+   }
+   ul {
+     list-style: circle inside;
+     padding-left: 1rem;
+     font-weight: 300;
+      li {
+        a {
+          text-decoration: none;
+          color: #fff;
+        }
+      }
+   }
+}
+
+
+#body {
+  //border: 1px solid blue;
+  //padding: 0 1rem 1rem;
+  main {
+    padding: 1rem;
+    h1, h2 {
+      color: #0357ef;
+      font-weight: 800; 
+      font-family: "poppins",sans-serif;
+    }
+    ul {
+      list-style: none;
+      padding: 0 1rem 0;
+      font-weight: 300;
+      li {
+        b {
+          font-family: "poppins", sans-serif;
+          font-weight: 400;
+        }
+      }
+    }
+    p {
+      padding:0 1rem 0;
+      font-weight: 300;
+    }
+  }
+}

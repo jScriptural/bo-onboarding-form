@@ -1,0 +1,35 @@
+:root {
+  font-size: 15px;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans",sans-serif,"poppins";
+  font-weight: 300;
+  line-height:1.5;
+  background: #fff;
+  /*color-scheme: light dark;*/
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+*,*::before,*::after {
+  box-sizing:inherit;
+  margin: 0;
+  padding: 0;
+}
+body, h1, h2, h3, h4, h5, h6, p, header{
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+img {
+  width: 100%;
+}
+
+
+@import './components/header';
+@import './components/body';
+@import './components/form';
+@import './components/footer';

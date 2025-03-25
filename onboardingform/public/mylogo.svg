@@ -1,0 +1,5 @@
+<svg width="360" height="45" xmlns="http://www.w3.org/20  00/svg" >
+  <rect x="0" y="0" width="45" height="45" fill="#0357ef"/>
+  <line x1="17.5" y1="22.5" x2="27.5" y2="22.5" stroke   ="#ffffff" stroke-width="10"/>
+  <text x="45" y="22.5" text-anchor="start" dominant-baseline="middle" fill="#ffffff" font-size="20" font-family="sans-serif">john.isonguyo@moniepoint.com</text>
+</svg>

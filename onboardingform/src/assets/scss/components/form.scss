@@ -1,0 +1,110 @@
+#form-con {
+  padding: 1rem;
+  border-top: 2px solid #0357ef;
+  h1 {
+    font-family: "poppins", sans-serif;
+    //font-size: 1.1rem;
+    font-weight: 800;
+    color: #0357ef;
+
+  }
+  .progress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div {
+      width: 2rem;
+      height: 2rem;
+      border: 1px solid #0357ef;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      background-color: #0357ef;
+      color: #fff;
+      padding: 1.2rem;
+    }
+  }
+  form {
+    padding: 1rem;
+    .page-one, .page-two{
+      border: 1.5px solid #0357ef;//rgba(0,0,0,.3);
+      border-radius: .5rem;
+      padding: 1rem;
+    }
+    fieldset {
+      margin-bottom: 1rem;
+      padding: .5rem;
+      border-radius: .5rem;
+      legend {
+        color: #0357ef;
+        font-weight: 400;
+        font-family: "poppins", sans-serif;
+        //font-size: 1.1rem;
+      }
+    }
+    .con {
+      display: flex;
+      flex-flow: column nowrap;
+      margin-bottom: .5rem;
+      label {
+        font-weight: 300;
+        //font-size: 1.1rem;
+      }
+      input {
+        outline: none;
+        border: 1.5px solid rgba(0,0,0,.5);
+        width: 100%;
+        height: 1.9rem;
+        border-radius: .2rem;
+        font-weight: 300;
+        //font-size: 1.1rem;
+        &:focus,&:hover,&:active{
+          border: 1px solid rgba(3,87,239,.7);
+          outline: 2px solid rgba(3,87,239,.5);
+          background-color: rgba(3,87,239,.05);
+        }
+      }
+    }
+  }
+  .btn-con {
+    //border: 1px solid #333;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .btn {
+      padding: 1rem 2.5rem;
+      border-radius: .5rem;
+      text-align: center;
+      //font-size: 1.2rem;
+      font-weight: 800;
+    }
+    .next {
+      border:none;
+      background-color: rgba(3,87,239,1);
+      color: #fff;
+      &:active {
+        background-color: rgba(3,87,239,.5);
+      }
+    }
+    .prev {
+      border: none;
+      color: rgba(3,87,239,1);
+      background: rgba(0,0,0,.04);
+      &:active {
+        background: rgba(0,0,0,.02);
+      }
+    }
+    .submit {
+      border: none;
+      background-color: rgba(34,205,41);
+      color: #fff;
+      &:active {
+        background: rgba(34,205,41,0.5);;
+      }
+    }
+  }
+}
