@@ -26,7 +26,7 @@ export default function Form(){
     textarea.value = textStr;
     setPage(p=>p-1);
 
-    /*emailjs.sendForm(SERVICE_ID,TEMPLATE_ID,form.current,{publicKey: PUBLIC_KEY})
+    emailjs.sendForm(SERVICE_ID,TEMPLATE_ID,form.current,{publicKey: PUBLIC_KEY})
     .then(()=>{
       console.log("SUCCESS!");
       alert("FORM SUBMITTED SUCCESSFULLY!!!");
@@ -36,7 +36,7 @@ export default function Form(){
       console.log("FAIL...",error);
       alert("FORM NOT SUBMITTED!!");
     });
-    */
+    
   }
 
   return (

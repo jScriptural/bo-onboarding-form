@@ -1,3 +1,7 @@
+@use './components/header';
+@use './components/body';
+@use './components/form';
+@use './components/footer';
 :root {
   font-size: 15px;
   box-sizing: border-box;
@@ -29,7 +33,3 @@ img {
 }
 
 
-@import './components/header';
-@import './components/body';
-@import './components/form';
-@import './components/footer';
